@@ -103,6 +103,52 @@
 								</div>
 							</article>
 
+							<article class="articleGrid__item dialogue col-md-12 col-sm-12 col-xs-12">
+								<div class="greyBackground clearfix">
+									<h3 class="dialogue__headline"><a href="#">Lorem ipsum dolor sit amet?</a></h3>
+									<a class="dialogue__strip" href="#">Dialogue</a>
+									
+									<div class="dialogue__person dialogue__person--left col-xs-6">
+										<a class="dialogue__image dialogue__image--left" href="#">
+											<figure>
+												<img src="../public/img/article_img/140x140.png">
+											</figure>
+										</a>
+										<div class="dialogue__metaData">
+											<span class="dialogue__metaDataName"><a href="#">Diane Long</a></span>
+											<span class="dialogue__metaDataDesc">Sport comentator</span>
+										</div>
+									</div>
+
+									<div class="dialogue__person dialogue__person--right col-xs-6">
+										<a class="dialogue__image dialogue__image--right" href="#">
+											<figure>
+												<img src="../public/img/article_img/140x140.png">
+											</figure>
+										</a>
+										<div class="dialogue__metaData">
+											<span class="dialogue__metaDataName"><a href="#">Diane Long</a></span>
+											<span class="dialogue__metaDataDesc">Sport comentator</span>
+										</div>
+									</div>
+
+									<div class="dialogue__votes">
+										<span class="dialogue__votesBar"><span class="dialogue__votesScore" style="width: 74%;"></span></span>
+										<div class="dialogue__votesResult dialogue__votesResult--left">
+											<span class="dialogue__votesResultNo dialogue__votesResultNo--left">74%</span><span class="dialogue__votesResultAnswer">pro</span>
+										</div>
+
+										<div class="dialogue__votesResult dialogue__votesResult--right">
+											<span class="dialogue__votesResultAnswer">contra</span><span class="dialogue__votesResultNo dialogue__votesResultNo--right">26%</span>
+										</div>
+									</div>
+									
+									<p class="dialogue__text dialogue__text--left col-sm-6 col-md-6 col-xs-12 hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis rhoncus est. Nulla dignissim enim ut odio efficitur dignissim. Integer ultricies turpis lorem</p>
+
+									<p class="dialogue__text dialogue__text--right col-sm-6 col-md-6 col-xs-12 hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis rhoncus est. Nulla dignissim enim ut odio efficitur dignissim. Integer ultricies turpis lorem</p>
+								</div>
+							</article>
+
 							<article class="articleGrid__item articleGrid__item--twoColumns col-md-6 col-sm-6 col-xs-12">
 								<a class="articleGrid__image" href="#">
 									<figure>
@@ -138,6 +184,9 @@
 									<a class="articleMetadata__comments articleMetadata__info" href="#">20</a>
 								</div>
 							</article>
+
+							
+
 						</div>
 					</div>
 

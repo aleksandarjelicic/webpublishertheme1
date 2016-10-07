@@ -490,5 +490,10 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 	});
 });
+jQuery(document).ready(function() {
+	$('.articleGrid__item--twoColumns:even').each(function($index){
+		$(this).addClass('clearLeft');
+	});
+});
 console.log("hello world");
 //# sourceMappingURL=all.js.map

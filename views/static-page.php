@@ -5,18 +5,33 @@
 	<main class="container">
 		<div class="row">
 
-			<div class="article article--noMargin col-md-9 col-sm-12 col-xs-12">
+			<div class="col-md-3 col-sm-12 col-xs-12">
+
+				<div class="sidebarMenu marginBottom30">
+					<h3 class="sectionHeading">About</h3>
+					<h4 class="sidebarMenu__headline sidebarMenu__headline--active">Static page title</h4>
+					<h4 class="sidebarMenu__headline"><a href="#">About us</a></h4>
+					<h4 class="sidebarMenu__headline"><a href="#">Impressum</a></h4>
+					<h4 class="sidebarMenu__headline"><a href="#">Marketing</a></h4>
+					<h4 class="sidebarMenu__headline"><a href="#">Media</a></h4>
+					<h4 class="sidebarMenu__headline"><a href="#">Contact us</a></h4>
+				</div>
+
+			</div>
+
+			<div class="article col-md-9 col-sm-12 col-xs-12">
 
 				<article>
 
-					<h2 class="article__headline marginBottom30">Static page title</h2>
+					<div class="article__text marginTop30">
 
-					<figure class="article__image">
-						<a href="#"><img src="../public/img/article_img/930x450.png"></a>
-						<figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
-					</figure>
+						<h2 class="article__headline marginBottom30">Static page title</h2>
 
-					<div class="article__text article__text--noMargin marginTop30">
+						<figure class="article__textImage marginBottom30">
+							<a href="#"><img src="../public/img/article_img/930x450.png"></a>
+							<figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
+						</figure>
+
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu enim in velit bibendum gravida nec et odio. Cras congue, orci vitae eleifend congue, felis mi tincidunt risus, et lobortis turpis ex vel velit. Nullam pellentesque tempor magna a fermentum. Vivamus nec erat non urna ornare suscipit sed ac turpis. In venenatis arcu vel diam malesuada egestas. Ut iaculis felis diam, id vestibulum ligula euismod ut. Proin blandit velit quis nunc gravida, quis</p>
 
 						<p>Proin vitae massa diam. Sed sed finibus nibh, ac faucibus lorem. Duis placerat suscipit turpis. Integer fermentum consectetur diam id ultrices. Nullam nulla dolor, dignissim in rutrum id, tristique nec urna. Quisque quis purus ante. Maecenas mollis mattis enim at rhoncus. Fusce ullamcorper luctus enim, eget varius nulla bibendum nec. Nulla facilisis magna nec posuere euismod. Fusce luctus diam non porttitor tincidunt. Proin mauris nunc, vehicula id enim vitae, lobortis scelerisque ante. Etiam imperdiet, ligula at vehicula</p>
@@ -36,7 +51,7 @@
 
 						<p>Nunc in velit ornare, pulvinar libero non, efficitur odio. Duis placerat sem nulla, eget placerat magna mollis quis. Aenean congue orci id varius lacinia. Donec interdum lacus a porta feugiat. Maecenas venenatis tempus urna eget dictum. Curabitur hendrerit efficitur interdum. Ut semper pulvinar felis in rutrum. Nulla viverra, metus a elementum auctor, dui tellus posuere turpis, non accumsan lorem tellus ut nisi. Quisque sodales neque eget magna imperdiet, non tempus odio commodo. Duis eget massa at nulla faucibus accumsan. Aliquam sed leo non arcu dapibus fermentum et a nisl. Nulla nec maximus lorem. Vestibulum pulvinar porta velit, ut feugiat nunc tempor sed.</p>
 
-						<div class="article__entrefilet article__floatLeft article__floatLeft--noMargin">
+						<div class="article__entrefilet article__floatLeft">
 							<h3>Entrefilet</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu enim in velit bibendum gravida nec et odtio. Cras congue, orci vitae eleifend congue, felis mi tincidunt risus, et lobortis turpis ex vel velit. Nullam pellentesque tempor magna a fermentum.</p>
 						</div>
@@ -54,19 +69,6 @@
 
 			</div>
 
-			<div class="col-md-3 col-sm-12 col-xs-12 pull-right">
-
-				<div class="sidebarMenu marginBottom30">
-					<h3 class="sectionHeading">About</h3>
-					<h4 class="sidebarMenu__headline sidebarMenu__headline--active">Static page title</h4>
-					<h4 class="sidebarMenu__headline"><a href="#">About us</a></h4>
-					<h4 class="sidebarMenu__headline"><a href="#">Impressum</a></h4>
-					<h4 class="sidebarMenu__headline"><a href="#">Marketing</a></h4>
-					<h4 class="sidebarMenu__headline"><a href="#">Media</a></h4>
-					<h4 class="sidebarMenu__headline"><a href="#">Contact us</a></h4>
-				</div>
-
-			</div>
 
 		</div>
 
